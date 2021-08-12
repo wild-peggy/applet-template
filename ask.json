@@ -1,13 +1,13 @@
 [ {
 	"type": "input",
 	"name": "projectname",
-	"message": "projectname ex: lyzh-applet-xxx?"
+	"message": "请输入项目名称 例如: 禾城回收小程序?"
 }, {
 	"type": "input",
 	"name": "author",
-	"message": "author?"
+	"message": "请输入项目作者?"
 }, {
 	"type": "input",
 	"name": "description",
-	"message": "description?"
+	"message": "请输入描述信息?"
 }]
