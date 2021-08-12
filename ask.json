@@ -1,0 +1,13 @@
+[ {
+	"type": "input",
+	"name": "projectname",
+	"message": "projectname ex: lyzh-applet-xxx?"
+}, {
+	"type": "input",
+	"name": "author",
+	"message": "author?"
+}, {
+	"type": "input",
+	"name": "description",
+	"message": "description?"
+}]

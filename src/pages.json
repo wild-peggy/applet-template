@@ -1,0 +1,125 @@
+{
+  "pages": [
+    {
+      "path": "pages/home/index",
+      "style": {
+        "navigationBarTitleText": "模版",
+        "app-plus": {
+          "titleNView": {
+            "buttons": [
+              {
+                "text": "\ue534",
+                "fontSrc": "/static/uni.ttf",
+                "fontSize": "22px",
+                "color": "#FFFFFF"
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "path": "pages/about/about",
+      "style": {
+        "navigationBarTitleText": "About",
+        "app-plus": {
+          "titleNView": {
+            "buttons": [
+              {
+                "text": "\ue534",
+                "fontSrc": "/static/uni.ttf",
+                "fontSize": "22px",
+                "color": "#FFFFFF"
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "path": "pages/error/404",
+      "style": {
+        "navigationBarTitleText": "Error",
+        "app-plus": {
+          "titleNView": {
+            "buttons": [
+              {
+                "text": "\ue534",
+                "fontSrc": "/static/uni.ttf",
+                "fontSize": "22px",
+                "color": "#FFFFFF"
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "path": "pages/template/nav-button/nav-button",
+      "style": {
+        "navigationBarTitleText": "导航栏带自定义按钮",
+        "app-plus": {
+          "titleNView": {
+            "buttons": [
+              {
+                "text": "\ue534",
+                "fontSrc": "/static/uni.ttf",
+                "fontSize": "22px",
+                "color": "#FFFFFF"
+              }
+            ]
+          }
+        }
+      }
+    }
+  ],
+  "globalStyle": {
+    "pageOrientation": "portrait",
+    "navigationBarTitleText": "Hello uniapp",
+    "navigationBarTextStyle": "white",
+    "navigationBarBackgroundColor": "#007AFF",
+    "backgroundColor": "#F8F8F8",
+    "backgroundColorTop": "#F4F5F6",
+    "backgroundColorBottom": "#F4F5F6",
+    "mp-360": {
+      "navigationStyle": "custom"
+    },
+    "h5": {
+      "maxWidth": 1190,
+      "navigationBarTextStyle": "black",
+      "navigationBarBackgroundColor": "#F1F1F1"
+    }
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#007AFF",
+    "borderStyle": "black",
+    "backgroundColor": "#F8F8F8",
+    "list": [
+      {
+        "pagePath": "pages/home/index",
+        "iconPath": "static/component.png",
+        "selectedIconPath": "static/componentHL.png",
+        "text": "内置组件"
+      },
+      {
+        "pagePath": "pages/about/about",
+        "iconPath": "static/api.png",
+        "selectedIconPath": "static/apiHL.png",
+        "text": "接口"
+      },
+      {
+        "pagePath": "pages/error/404",
+        "iconPath": "static/extui.png",
+        "selectedIconPath": "static/extuiHL.png",
+        "text": "扩展组件"
+      },
+      {
+        "pagePath": "pages/template/nav-button/nav-button",
+        "iconPath": "static/template.png",
+        "selectedIconPath": "static/templateHL.png",
+        "text": "模板"
+      }
+    ]
+  }
+}
